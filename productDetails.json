@@ -1,0 +1,236 @@
+[
+  {
+    "productID": "ELEC-00123",
+    "productName": "Wireless Mouse",
+    "productNameSpanish": "Ratón Inalámbrico",
+    "category": "Electronics",
+    "price": 25.99,
+    "availability": "In Stock",
+    "productLink": "https://www.amazon.com/dp/B08J2T6P7Q",
+    "location": {
+      "city": "Shenzhen",
+      "coordinates": [114.0579, 22.5431]
+    }
+  },
+  {
+    "productID": "KEYB-00456",
+    "productName": "Mechanical Keyboard",
+    "productNameSpanish": "Teclado Mecánico",
+    "category": "Electronics",
+    "price": 79.99,
+    "availability": "In Stock",
+    "productLink": "https://www.flipkart.com/keyboard-mechanical/p/itmcb487c347a4d3",
+    "location": {
+      "city": "Taipei",
+      "coordinates": [121.5654, 25.0329]
+    }
+  },
+  {
+    "productID": "HEAD-00789",
+    "productName": "Gaming Headset",
+    "productNameSpanish": "Auriculares para Juegos",
+    "category": "Accessories",
+    "price": 49.99,
+    "availability": "Out of Stock",
+    "productLink": "https://www.ebay.com/itm/123456789012",
+    "location": {
+      "city": "Dongguan",
+      "coordinates": [113.7464, 23.0464]
+    }
+  },
+  {
+    "productID": "USBC-01010",
+    "productName": "USB-C Hub",
+    "productNameSpanish": "Concentrador USB-C",
+    "category": "Computers",
+    "price": 29.99,
+    "availability": "In Stock",
+    "productLink": "https://www.walmart.com/ip/USB-C-Hub/123456789",
+    "location": {
+      "city": "Guangzhou",
+      "coordinates": [113.2644, 23.1291]
+    }
+  },
+  {
+    "productID": "STOR-02020",
+    "productName": "External SSD",
+    "productNameSpanish": "SSD Externo",
+    "category": "Storage",
+    "price": 129.99,
+    "availability": "Limited Stock",
+    "productLink": "https://www.bestbuy.com/site/external-ssd/1234567",
+    "location": {
+      "city": "Seoul",
+      "coordinates": [126.978, 37.5665]
+    }
+  },
+  {
+    "productID": "MONI-03030",
+    "productName": "4K Monitor",
+    "productNameSpanish": "Monitor 4K",
+    "category": "Displays",
+    "price": 349.99,
+    "availability": "In Stock",
+    "productLink": "https://www.amazon.com/dp/B09ABCDEFG",
+    "location": {
+      "city": "Osaka",
+      "coordinates": [135.5023, 34.6937]
+    }
+  },
+  {
+    "productID": "AUDIO-04040",
+    "productName": "Bluetooth Speaker",
+    "productNameSpanish": "Altavoz Bluetooth",
+    "category": "Audio",
+    "price": 59.99,
+    "availability": "In Stock",
+    "productLink": "https://www.target.com/p/bluetooth-speaker/-/A-12345678",
+    "location": {
+      "city": "Shenzhen",
+      "coordinates": [114.0579, 22.5431]
+    }
+  },
+  {
+    "productID": "WEAR-05050",
+    "productName": "Smartwatch",
+    "productNameSpanish": "Reloj Inteligente",
+    "category": "Wearables",
+    "price": 199.99,
+    "availability": "Pre-order",
+    "productLink": "https://www.ebay.com/itm/123456789013",
+    "location": {
+      "city": "Hangzhou",
+      "coordinates": [120.1551, 30.2741]
+    }
+  },
+  {
+    "productID": "CAM-06060",
+    "productName": "Action Camera",
+    "productNameSpanish": "Cámara de Acción",
+    "category": "Cameras",
+    "price": 299.99,
+    "availability": "In Stock",
+    "productLink": "https://www.walmart.com/ip/Action-Camera/987654321",
+    "location": {
+      "city": "Tokyo",
+      "coordinates": [139.6503, 35.6762]
+    }
+  },
+  {
+    "productID": "HEAD-07070",
+    "productName": "Noise Cancelling Headphones",
+    "productNameSpanish": "Auriculares con Cancelación de Ruido",
+    "category": "Audio",
+    "price": 149.99,
+    "availability": "In Stock",
+    "productLink": "https://www.bestbuy.com/site/noise-cancelling-headphones/1234568",
+    "location": {
+      "city": "Guangzhou",
+      "coordinates": [113.2644, 23.1291]
+    }
+  },
+  {
+    "productID": "ACC-08080",
+    "productName": "Smartphone Stand",
+    "productNameSpanish": "Soporte para Smartphone",
+    "category": "Accessories",
+    "price": 14.99,
+    "availability": "In Stock",
+    "productLink": "https://www.amazon.com/dp/B08ABC1234",
+    "location": {
+      "city": "Shenzhen",
+      "coordinates": [114.0579, 22.5431]
+    }
+  },
+  {
+    "productID": "ELEC-09090",
+    "productName": "Portable Charger",
+    "productNameSpanish": "Cargador Portátil",
+    "category": "Electronics",
+    "price": 39.99,
+    "availability": "Limited Stock",
+    "productLink": "https://www.flipkart.com/portable-charger/p/itmabcdef123456",
+    "location": {
+      "city": "Shanghai",
+      "coordinates": [121.4737, 31.2304]
+    }
+  },
+  {
+    "productID": "CHRG-11111",
+    "productName": "Wireless Charger",
+    "productNameSpanish": "Cargador Inalámbrico",
+    "category": "Accessories",
+    "price": 24.99,
+    "availability": "In Stock",
+    "productLink": "https://www.target.com/p/wireless-charger/-/A-87654321",
+    "location": {
+      "city": "Shenzhen",
+      "coordinates": [114.0579, 22.5431]
+    }
+  },
+  {
+    "productID": "COMP-22222",
+    "productName": "Laptop Cooling Pad",
+    "productNameSpanish": "Base de Refrigeración para Portátil",
+    "category": "Computers",
+    "price": 19.99,
+    "availability": "Out of Stock",
+    "productLink": "https://www.walmart.com/ip/Laptop-Cooling-Pad/123456789",
+    "location": {
+      "city": "Seoul",
+      "coordinates": [126.978, 37.5665]
+    }
+  },
+  {
+    "productID": "CHAIR-33333",
+    "productName": "Gaming Chair",
+    "productNameSpanish": "Silla de Juegos",
+    "category": "Furniture",
+    "price": 149.99,
+    "availability": "In Stock",
+    "productLink": "https://www.bestbuy.com/site/gaming-chair/9876543",
+    "location": {
+      "city": "Dongguan",
+      "coordinates": [113.7464, 23.0464]
+    }
+  },
+  {
+    "productID": "ART-44444",
+    "productName": "Graphic Tablet",
+    "productNameSpanish": "Tableta Gráfica",
+    "category": "Art",
+    "price": 79.99,
+    "availability": "In Stock",
+    "productLink": "https://www.amazon.com/dp/B09XYZ1235",
+    "location": {
+      "city": "Taipei",
+      "coordinates": [121.5654, 25.0329]
+    }
+  },
+  {
+    "productID": "DRON-55555",
+    "productName": "Drone",
+    "productNameSpanish": "Dron",
+    "category": "Drones",
+    "price": 499.99,
+    "availability": "Limited Stock",
+    "productLink": "https://www.flipkart.com/drone/p/itmabcdefg123456",
+    "location": {
+      "city": "Shenzhen",
+      "coordinates": [114.0579, 22.5431]
+    }
+  },
+  {
+    "productID": "WEAR-66666",
+    "productName": "Fitness Tracker",
+    "productNameSpanish": "Rastreador de Fitness",
+    "category": "Wearables",
+    "price": 89.99,
+    "availability": "Pre-order",
+    "productLink": "https://www.ebay.com/itm/123456789014",
+    "location": {
+      "city": "Hangzhou",
+      "coordinates": [120.1551, 30.2741]
+    }
+  }
+]

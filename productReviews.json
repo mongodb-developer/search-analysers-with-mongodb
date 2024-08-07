@@ -1,0 +1,147 @@
+[
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff600" },
+    "productID": "ELEC-00123",
+    "review": "The Wireless Mouse is excellent with a long-lasting battery, perfect for daily use.",
+    "rating": 4.5,
+    "reviewer": "Alice Walker",
+    "reviewDate": { "$date": "2024-08-01T10:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff601" },
+    "productID": "KEYB-00456",
+    "review": "This Mechanical Keyboard has superb key responsiveness and is ideal for gamers.",
+    "rating": 4.8,
+    "reviewer": "Bob Smith",
+    "reviewDate": { "$date": "2024-08-02T12:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff602" },
+    "productID": "HEAD-00789",
+    "review": "The Gaming Headset offers great sound quality, though availability is currently limited.",
+    "rating": 3.7,
+    "reviewer": "Carol Jones",
+    "reviewDate": { "$date": "2024-08-03T14:15:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff603" },
+    "productID": "USBC-01010",
+    "review": "USB-C Hub performs well with various devices and is highly functional.",
+    "rating": 4.2,
+    "reviewer": "David Brown",
+    "reviewDate": { "$date": "2024-08-04T16:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff604" },
+    "productID": "STOR-02020",
+    "review": "The External SSD is fast and provides ample storage, ideal for heavy data users.",
+    "rating": 4.6,
+    "reviewer": "Emily Clark",
+    "reviewDate": { "$date": "2024-08-05T09:45:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff605" },
+    "productID": "MONI-03030",
+    "review": "The 4K Monitor delivers stunning visuals with excellent clarity, though it is on the pricier side.",
+    "rating": 4.7,
+    "reviewer": "Frank Harris",
+    "reviewDate": { "$date": "2024-08-06T11:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff606" },
+    "productID": "AUDIO-04040",
+    "review": "The Bluetooth Speaker provides great sound quality and is portable, though it's currently in stock.",
+    "rating": 4.4,
+    "reviewer": "Grace Adams",
+    "reviewDate": { "$date": "2024-08-07T13:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff607" },
+    "productID": "WEAR-05050",
+    "review": "The Smartwatch features a sleek design and numerous functionalities, but it’s available for pre-order.",
+    "rating": 4.3,
+    "reviewer": "Helen Martin",
+    "reviewDate": { "$date": "2024-08-08T15:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff608" },
+    "productID": "CAM-06060",
+    "review": "The Action Camera captures high-quality video and is reliable for adventurous activities.",
+    "rating": 4.6,
+    "reviewer": "Ivy Scott",
+    "reviewDate": { "$date": "2024-08-09T17:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff609" },
+    "productID": "HEAD-07070",
+    "review": "Noise Cancelling Headphones offer excellent sound isolation, though availability is limited.",
+    "rating": 4.5,
+    "reviewer": "Jack Taylor",
+    "reviewDate": { "$date": "2024-08-10T19:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff60a" },
+    "productID": "ACC-08080",
+    "review": "Smartphone Stand is a simple yet effective accessory for stable phone placement.",
+    "rating": 4.0,
+    "reviewer": "Karen Lee",
+    "reviewDate": { "$date": "2024-08-11T21:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff60b" },
+    "productID": "ELEC-09090",
+    "review": "The Portable Charger is handy for on-the-go charging, though it’s running low in stock.",
+    "rating": 4.1,
+    "reviewer": "Liam Wright",
+    "reviewDate": { "$date": "2024-08-12T22:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff60c" },
+    "productID": "CHRG-11111",
+    "review": "Wireless Charger works efficiently and is a must-have for modern devices.",
+    "rating": 4.2,
+    "reviewer": "Mia Davis",
+    "reviewDate": { "$date": "2024-08-13T10:45:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff60d" },
+    "productID": "COMP-22222",
+    "review": "The Laptop Cooling Pad helps in keeping the laptop cool but is currently out of stock.",
+    "rating": 4.0,
+    "reviewer": "Nina Wilson",
+    "reviewDate": { "$date": "2024-08-14T12:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff60e" },
+    "productID": "CHAIR-33333",
+    "review": "The Gaming Chair is comfortable for extended sessions and well worth the investment.",
+    "rating": 4.7,
+    "reviewer": "Oscar Moore",
+    "reviewDate": { "$date": "2024-08-15T14:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff60f" },
+    "productID": "ART-44444",
+    "review": "The Graphic Tablet is perfect for digital artists, with great precision and functionality.",
+    "rating": 4.6,
+    "reviewer": "Paula Harris",
+    "reviewDate": { "$date": "2024-08-16T16:45:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff610" },
+    "productID": "DRON-55555",
+    "review": "The Drone is high-quality and performs well, though it's available in limited stock.",
+    "rating": 4.5,
+    "reviewer": "Quincy Walker",
+    "reviewDate": { "$date": "2024-08-17T18:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "77b3455b85c3634cc7fff611" },
+    "productID": "WEAR-66666",
+    "review": "The Fitness Tracker is a great tool for monitoring health metrics, available for pre-order.",
+    "rating": 4.3,
+    "reviewer": "Rita Green",
+    "reviewDate": { "$date": "2024-08-18T20:15:00Z" }
+  }
+]
+
