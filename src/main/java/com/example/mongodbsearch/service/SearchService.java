@@ -26,7 +26,8 @@ public class SearchService {
                 new Document("index", "index01")
                         .append("text",
                                 new Document("query", query)
-                                        .append("path", "productNameSpanish"))));
+                                        .append("path", "productNameSpanish"))),
+                new Document("$limit", 3));
 
         ArrayList<Document> results = new ArrayList<>();
         collection.aggregate(pipeline).into(results);
@@ -45,7 +46,8 @@ public class SearchService {
                 new Document("$project",
                         new Document("_id", 0L)
                                 .append("productID", 1L)
-                                .append("productName", 1L)));
+                                .append("productName", 1L)),
+                new Document("$limit", 3));
 
         ArrayList<Document> results = new ArrayList<>();
         collection.aggregate(pipeline).into(results);
@@ -65,13 +67,13 @@ public class SearchService {
                         new Document("_id", 0L)
                                 .append("productID", 1L)
                                 .append("productName", 1L)
-                                .append("productLink", 1L)));
+                                .append("productLink", 1L)),
+                new Document("$limit", 3));
 
         ArrayList<Document> results = new ArrayList<>();
         collection.aggregate(pipeline).into(results);
         return results;
     }
-
 
     public List<Document> searchWithLookups(String query, String productReviews) {
         MongoCollection<Document> collection;
@@ -89,7 +91,8 @@ public class SearchService {
                                                                 .append("path", "review")))))),
                 new Document("$match",
                         new Document("result",
-                                new Document("$ne", Arrays.asList()))));
+                                new Document("$ne", Arrays.asList()))),
+                new Document("$limit", 3));
 
         ArrayList<Document> results = new ArrayList<>();
         collection.aggregate(pipeline).into(results);
