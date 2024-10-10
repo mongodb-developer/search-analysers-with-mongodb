@@ -17,17 +17,17 @@ public class SearchController {
 
     @GetMapping("/search/withSpanish")
     public List<Document> searchInIndex01(@RequestParam String query) {
-        return searchService.searchWithSpanish(query, "sampleProducts");
+        return searchService.searchWithSpanish(query, "productDetails");
     }
 
     @GetMapping("/search/withCustomAnalyzersOnProductID")
     public List<Document> searchInIndex02(@RequestParam String query) {
-        return searchService.withCustomAnalyzersOnProductID(query, "sampleProducts");
+        return searchService.withCustomAnalyzersOnProductID(query, "productDetails");
     }
 
     @GetMapping("/search/withCustomAnalyzerOnProductLink")
     public List<Document> searchInIndex_02(@RequestParam String query) {
-        return searchService.withCustomAnalyzersOnProductLink(query, "sampleProducts");
+        return searchService.withCustomAnalyzersOnProductLink(query, "productDetails");
     }
 
     @GetMapping("/search/withLookups")

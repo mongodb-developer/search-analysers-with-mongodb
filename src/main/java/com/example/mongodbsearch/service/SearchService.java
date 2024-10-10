@@ -18,10 +18,10 @@ public class SearchService {
     private MongoTemplate mongoTemplate;
 
 
-    public List<Document> searchWithSpanish(String query, String sampleProducts) {
+    public List<Document> searchWithSpanish(String query, String productDetails) {
         MongoCollection<Document> collection;
         MongoDatabase database = mongoTemplate.getDb();
-        collection = database.getCollection(sampleProducts);
+        collection = database.getCollection(productDetails);
         List<Document> pipeline = Arrays.asList(new Document("$search",
                 new Document("index", "index01")
                         .append("text",
@@ -34,10 +34,10 @@ public class SearchService {
         return results;
     }
 
-    public List<Document> withCustomAnalyzersOnProductID(String query, String sampleProducts) {
+    public List<Document> withCustomAnalyzersOnProductID(String query, String productDetails) {
         MongoCollection<Document> collection;
         MongoDatabase database = mongoTemplate.getDb();
-        collection = database.getCollection(sampleProducts);
+        collection = database.getCollection(productDetails);
         List<Document> pipeline = Arrays.asList(new Document("$search",
                         new Document("index", "index02")
                                 .append("text",
@@ -54,10 +54,10 @@ public class SearchService {
         return results;
         }
 
-    public List<Document> withCustomAnalyzersOnProductLink(String query, String sampleProducts) {
+    public List<Document> withCustomAnalyzersOnProductLink(String query, String productDetails) {
         MongoCollection<Document> collection;
         MongoDatabase database = mongoTemplate.getDb();
-        collection = database.getCollection(sampleProducts);
+        collection = database.getCollection(productDetails);
         List<Document> pipeline = Arrays.asList(new Document("$search",
                         new Document("index", "index02")
                                 .append("text",
